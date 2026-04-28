@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or build on this project, please cite it as below."
+title: "Time-Dependent Emission Exposure in Helsinki"
+type: software
+authors:
+  - given-names: "Cansın"
+    family-names: "Gök"
+  - given-names: "Natalia"
+    family-names: "Juscamaita Ramos"
+  - given-names: "Megha"
+    family-names: "Lagoo"
+repository-code: "https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+date-released: "2026-01-23"
+license: "MIT"
+keywords:
+  - time-dependent traveling salesman problem
+  - emission exposure
+  - urban routing
+  - Helsinki
+  - OSMnx
+  - NetworkX
+  - GeoPandas
