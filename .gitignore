@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+
+# Large or private input data
+# Remove these lines only if you are sure the data can be public.
+data/*.csv
+data/*.geojson
+data/*.gpkg
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+
+# Generated outputs can be reproduced by running main.py
+results/*.csv
+results/figures/*.png
