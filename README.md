@@ -86,3 +86,13 @@ The parameter α ∈ [0, 1] controls the trade-off between travel time and emiss
 
 -   **Optimal Balance**\
     α = 0.5 provides the most efficient trade-off for urban logistics.
+------------------------------------------------------------------------
+## How to cite
+
+If you use this code, methodology, or results, please cite this repository:
+
+Gök, C., Juscamaita Ramos, N., & Lagoo, M. (2026). 
+Time-Dependent Emission Exposure in Helsinki. 
+GitHub repository: https://github.com/njr2599/Time-Dependent-TSP-Helsinki
+
+You can also use the "Cite this repository" button on the right side of the GitHub page.
