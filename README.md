@@ -87,6 +87,33 @@ The parameter α ∈ [0, 1] controls the trade-off between travel time and emiss
 -   **Optimal Balance**\
     α = 0.5 provides the most efficient trade-off for urban logistics.
 ------------------------------------------------------------------------
+
+## 5. References
+
+This repository does not include the original datasets. To reproduce the project, place the required data files in this folder.
+
+Required files:
+- `HMA_Dynamic_population_24H_workdays.csv`
+- `target_zones_grid250m_EPSG3067.geojson`
+
+The dynamic population data and grid-cell data are based on:
+
+Bergroth, C., Järv, O., Tenkanen, H., Manninen, M., & Toivonen, T. (2022). 
+*A 24-hour population distribution dataset based on mobile phone data from Helsinki Metropolitan Area, Finland*. 
+Scientific Data, 9, 39. https://doi.org/10.1038/s41597-021-01113-4
+
+Road-network data are obtained from OpenStreetMap:
+
+© OpenStreetMap contributors. OpenStreetMap data are available under the Open Database License (ODbL).
+
+The road network was downloaded and processed using OSMnx:
+
+Boeing, G. (2017).
+OSMnx: A Python package to work with graph-theoretic OpenStreetMap street networks. 
+Journal of Open Source Software, 2(12), 215. https://doi.org/10.21105/joss.00215
+
+------------------------------------------------------------------------
+
 ## How to cite
 
 If you use this code, methodology, or results, please cite this repository:
